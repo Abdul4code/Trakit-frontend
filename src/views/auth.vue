@@ -1,0 +1,84 @@
+<script setup>
+</script>
+
+<template>
+<section class="container">
+    <section class="form-section"> 
+        <div class="form">
+            <header>
+                <img src="../assets/images/icon.png" alt="">
+                <p class="font-title "> Trakit </p>
+            </header>
+            <section>
+                <div class="form-header">
+                    <p> Register </p>
+                    <p> Already have an Account? <a class="sign-up-link"> Sign up </a></p>
+                </div>
+                <form class="auth-form">
+                    <div class="form-element">
+                        <label for=""> Username </label>
+                        <input type="text" />
+                    </div>
+
+                    <div class="form-element multi-elem">
+                        <div class="form-sub-element">
+                            <label for=""> Firstname </label>
+                            <input type="text" />
+                        </div>
+                        <div class="form-sub-element">
+                            <label for=""> Lastname </label>
+                            <input type="text" />
+                        </div>
+                    </div>
+
+                    <div class="form-element">
+                        <label for=""> Email </label>
+                        <input type="email" />
+                    </div>
+
+                    <div class="form-element">
+                        <label for=""> Password </label>
+                        <input type="password" />
+                    </div>
+
+                    <div class="form-element">
+                        <label for=""> Confirm Password </label>
+                        <input type="password" />
+                    </div>
+
+                    <div class="form-element">
+                        <button class="button"> Sign in </button>
+                    </div>
+                </form>
+
+                <p class="or"> Or </p>
+
+                <div class="google-signin">
+                    <img src="../assets/images/google.png" alt="">
+                    <p> Sign up with Google </p>
+                </div>
+
+            </section>
+        </div>
+    </section>
+    <section class="onboard-section">
+        <section>
+            <div class="onboard-img"><img src="../assets/images/slide_image1.png" alt=""></div>
+            <div class="onboard-text"> 
+                <h1>Empower your Ambitions: Stay On Track and Take Control.</h1>
+                <p> Achieving goals sometimes require several attempts. Lets help you stay organize while you reach for your goals. </p>
+            </div>
+            <div class="scroll-control">
+                <div class="selected-onboard"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+    </section>
+</section>
+</template>
+<style>
+    @import url("../assets/css/auth.css")
+</style>
