@@ -102,7 +102,7 @@
                     </div>
                     
 
-                    <p class="f-password"> Forget password </p>
+                    <p class="f-password"><a href="/reset"> Forget password </a></p>
                     
                     <div class="form-element">
                         <button class="button"> Sign in </button>
