@@ -3,14 +3,21 @@ import register from '../views/Register.vue'
 import login from '../views/Login.vue'
 import homepage from '../views/Homepage.vue'
 import reset from '../views/reset.vue'
+import goal from '../views/Goal.vue'
 
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+
     {
       path: '/', name: 'homepage',component: homepage
     },
+    {
+      path: '/goal/:id', name: 'goal', component: goal
+    },
+
+    // Authentication Pages
     {
       path: '/register', name: 'register', component: register
     },

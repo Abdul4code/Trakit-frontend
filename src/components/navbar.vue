@@ -60,7 +60,7 @@
                     </div>
                     <div class="goals-dropdown" :class="{'foldsubbar': !model.styles.goal_nav_open, 'unfoldsubbar': model.styles.goal_nav_open}">
                         <p> Graduate School Application </p>
-                        <p> Getting Grant for New application </p>S
+                        <p> Getting Grant for New application </p>
                         <p> Getting investors for my new application </p>
                         <p> Sunday School </p>
                         <p><a href="#" class="nav-link"> More Goals </a> </p>
